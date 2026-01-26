@@ -1,0 +1,9 @@
+*Работ с текстом удалить/заменить*
+
+parts_to_remove.txt - добавить тот код который следует удалить
+remove_html_parts.py -  запустить скрипт к удалению для сложных случаев ``` python3 remove_html_parts.py ```
+
+remove_text.sh - удаление простого текста, пример использования ``` ./remove_text.sh technix-rus.ru/*.html "Войти" ```
+replace_text.sh - переименование значений по всей странице, пример использования ./replace_text.sh technix-rus.ru/*.html "196105" "000000"
+
+dowload_site.sh - исправить в дальнейшем 

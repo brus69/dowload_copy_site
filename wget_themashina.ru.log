@@ -1,0 +1,218 @@
+--2026-01-26 12:38:22--  https://themashina.ru/
+Resolving themashina.ru (themashina.ru)... 212.233.97.234
+Connecting to themashina.ru (themashina.ru)|212.233.97.234|:443... connected.
+WARNING: cannot verify themashina.ru's certificate, issued by ‘CN=Kaspersky Endpoint Security Personal Certification Authority,O=AO Kaspersky Lab’:
+  Self-signed certificate encountered.
+HTTP request sent, awaiting response... 200 OK
+Length: 155967 (152K) [text/html]
+Saving to: ‘themashina.ru/themashina.ru/index.html’
+
+themashina.ru/index   0%[                    ]       0  --.-KB/s               themashina.ru/index 100%[===================>] 152.31K  --.-KB/s    in 0.001s  
+
+2026-01-26 12:38:22 (267 MB/s) - ‘themashina.ru/themashina.ru/index.html’ saved [155967/155967]
+
+Loading robots.txt; please ignore errors.
+--2026-01-26 12:38:25--  https://themashina.ru/robots.txt
+Reusing existing connection to themashina.ru:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 55 [text/plain]
+Saving to: ‘themashina.ru/themashina.ru/robots.txt’
+
+themashina.ru/robot   0%[                    ]       0  --.-KB/s               themashina.ru/robot 100%[===================>]      55  --.-KB/s    in 0s      
+
+2026-01-26 12:38:25 (32.8 MB/s) - ‘themashina.ru/themashina.ru/robots.txt’ saved [55/55]
+
+--2026-01-26 12:38:27--  https://themashina.ru/css/normalize.css
+Reusing existing connection to themashina.ru:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 7772 (7.6K) [text/css]
+Saving to: ‘themashina.ru/themashina.ru/normalize.css’
+
+themashina.ru/norma   0%[                    ]       0  --.-KB/s               themashina.ru/norma 100%[===================>]   7.59K  --.-KB/s    in 0s      
+
+2026-01-26 12:38:27 (469 MB/s) - ‘themashina.ru/themashina.ru/normalize.css’ saved [7772/7772]
+
+--2026-01-26 12:38:29--  https://themashina.ru/css/webflow.css
+Reusing existing connection to themashina.ru:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 39537 (39K) [text/css]
+Saving to: ‘themashina.ru/themashina.ru/webflow.css’
+
+themashina.ru/webfl   0%[                    ]       0  --.-KB/s               themashina.ru/webfl 100%[===================>]  38.61K  --.-KB/s    in 0s      
+
+2026-01-26 12:38:29 (131 MB/s) - ‘themashina.ru/themashina.ru/webflow.css’ saved [39537/39537]
+
+--2026-01-26 12:38:31--  https://themashina.ru/css/the-mashina.webflow.css?08022024
+Reusing existing connection to themashina.ru:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 100626 (98K) [text/css]
+Saving to: ‘themashina.ru/themashina.ru/the-mashina.webflow.css?08022024.css’
+
+themashina.ru/the-m   0%[                    ]       0  --.-KB/s               themashina.ru/the-m 100%[===================>]  98.27K  --.-KB/s    in 0s      
+
+2026-01-26 12:38:31 (248 MB/s) - ‘themashina.ru/themashina.ru/the-mashina.webflow.css?08022024.css’ saved [100626/100626]
+
+--2026-01-26 12:38:33--  https://themashina.ru/images/favicon.png
+Reusing existing connection to themashina.ru:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 797 [image/png]
+Saving to: ‘themashina.ru/themashina.ru/favicon.png’
+
+themashina.ru/favic   0%[                    ]       0  --.-KB/s               themashina.ru/favic 100%[===================>]     797  --.-KB/s    in 0s      
+
+2026-01-26 12:38:33 (292 MB/s) - ‘themashina.ru/themashina.ru/favicon.png’ saved [797/797]
+
+--2026-01-26 12:38:34--  https://themashina.ru/images/webclip.png
+Reusing existing connection to themashina.ru:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 30775 (30K) [image/png]
+Saving to: ‘themashina.ru/themashina.ru/webclip.png’
+
+themashina.ru/webcl   0%[                    ]       0  --.-KB/s               themashina.ru/webcl 100%[===================>]  30.05K  --.-KB/s    in 0.01s   
+
+2026-01-26 12:38:34 (2.96 MB/s) - ‘themashina.ru/themashina.ru/webclip.png’ saved [30775/30775]
+
+--2026-01-26 12:38:36--  https://themashina.ru/images/turn.svg
+Reusing existing connection to themashina.ru:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 1154 (1.1K) [image/svg+xml]
+Saving to: ‘themashina.ru/themashina.ru/turn.svg’
+
+themashina.ru/turn.   0%[                    ]       0  --.-KB/s               themashina.ru/turn. 100%[===================>]   1.13K  --.-KB/s    in 0s      
+
+2026-01-26 12:38:36 (500 MB/s) - ‘themashina.ru/themashina.ru/turn.svg’ saved [1154/1154]
+
+--2026-01-26 12:38:37--  https://themashina.ru/images/close.svg
+Reusing existing connection to themashina.ru:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 1123 (1.1K) [image/svg+xml]
+Saving to: ‘themashina.ru/themashina.ru/close.svg’
+
+themashina.ru/close   0%[                    ]       0  --.-KB/s               themashina.ru/close 100%[===================>]   1.10K  --.-KB/s    in 0s      
+
+2026-01-26 12:38:37 (564 MB/s) - ‘themashina.ru/themashina.ru/close.svg’ saved [1123/1123]
+
+--2026-01-26 12:38:39--  https://themashina.ru/images/check.svg
+Reusing existing connection to themashina.ru:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 243 [image/svg+xml]
+Saving to: ‘themashina.ru/themashina.ru/check.svg’
+
+themashina.ru/check   0%[                    ]       0  --.-KB/s               themashina.ru/check 100%[===================>]     243  --.-KB/s    in 0s      
+
+2026-01-26 12:38:39 (178 MB/s) - ‘themashina.ru/themashina.ru/check.svg’ saved [243/243]
+
+--2026-01-26 12:38:41--  https://themashina.ru/images/qr/whatsapp_qr_code.png
+Reusing existing connection to themashina.ru:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 33215 (32K) [image/png]
+Saving to: ‘themashina.ru/themashina.ru/qr/whatsapp_qr_code.png’
+
+themashina.ru/qr/wh   0%[                    ]       0  --.-KB/s               themashina.ru/qr/wh 100%[===================>]  32.44K  --.-KB/s    in 0.01s   
+
+2026-01-26 12:38:42 (3.14 MB/s) - ‘themashina.ru/themashina.ru/qr/whatsapp_qr_code.png’ saved [33215/33215]
+
+--2026-01-26 12:38:43--  https://themashina.ru/b2b
+Reusing existing connection to themashina.ru:443.
+HTTP request sent, awaiting response... 308 Permanent Redirect
+Location: /b2b/ [following]
+--2026-01-26 12:38:46--  https://themashina.ru/b2b/
+Reusing existing connection to themashina.ru:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 53647 (52K) [text/html]
+Saving to: ‘themashina.ru/themashina.ru/b2b.html’
+
+themashina.ru/b2b.h   0%[                    ]       0  --.-KB/s               themashina.ru/b2b.h 100%[===================>]  52.39K  --.-KB/s    in 0s      
+
+2026-01-26 12:38:46 (143 MB/s) - ‘themashina.ru/themashina.ru/b2b.html’ saved [53647/53647]
+
+--2026-01-26 12:38:49--  https://themashina.ru/images/as-light.png
+Reusing existing connection to themashina.ru:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 3462 (3.4K) [image/png]
+Saving to: ‘themashina.ru/themashina.ru/as-light.png’
+
+themashina.ru/as-li   0%[                    ]       0  --.-KB/s               themashina.ru/as-li 100%[===================>]   3.38K  --.-KB/s    in 0s      
+
+2026-01-26 12:38:49 (1.40 GB/s) - ‘themashina.ru/themashina.ru/as-light.png’ saved [3462/3462]
+
+--2026-01-26 12:38:50--  https://themashina.ru/images/gp-light.png
+Reusing existing connection to themashina.ru:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 5177 (5.1K) [image/png]
+Saving to: ‘themashina.ru/themashina.ru/gp-light.png’
+
+themashina.ru/gp-li   0%[                    ]       0  --.-KB/s               themashina.ru/gp-li 100%[===================>]   5.06K  --.-KB/s    in 0s      
+
+2026-01-26 12:38:50 (34.2 MB/s) - ‘themashina.ru/themashina.ru/gp-light.png’ saved [5177/5177]
+
+--2026-01-26 12:38:52--  https://themashina.ru/images/burger.svg
+Reusing existing connection to themashina.ru:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 266 [image/svg+xml]
+Saving to: ‘themashina.ru/themashina.ru/burger.svg’
+
+themashina.ru/burge   0%[                    ]       0  --.-KB/s               themashina.ru/burge 100%[===================>]     266  --.-KB/s    in 0s      
+
+2026-01-26 12:38:52 (110 MB/s) - ‘themashina.ru/themashina.ru/burger.svg’ saved [266/266]
+
+--2026-01-26 12:38:53--  https://themashina.ru/images/close-icon.svg
+Reusing existing connection to themashina.ru:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 1156 (1.1K) [image/svg+xml]
+Saving to: ‘themashina.ru/themashina.ru/close-icon.svg’
+
+themashina.ru/close   0%[                    ]       0  --.-KB/s               themashina.ru/close 100%[===================>]   1.13K  --.-KB/s    in 0s      
+
+2026-01-26 12:38:53 (612 MB/s) - ‘themashina.ru/themashina.ru/close-icon.svg’ saved [1156/1156]
+
+--2026-01-26 12:38:55--  https://themashina.ru/&quot;https://uploads-ssl.webflow.com/61a8f69a2510301afbf10762/61b5ee32a9f87114b5dbd768_hero-video-poster-00001.jpg&quot;
+Reusing existing connection to themashina.ru:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 155967 (152K) [text/html]
+Saving to: ‘themashina.ru/themashina.ru/uploads-ssl.webflow.com/61a8f69a2510301afbf10762/61b5ee32a9f87114b5dbd768_hero-video-poster-00001.jpg&quot;.html’
+
+themashina.ru/uploa   0%[                    ]       0  --.-KB/s               themashina.ru/uploa 100%[===================>] 152.31K  --.-KB/s    in 0.001s  
+
+2026-01-26 12:38:56 (295 MB/s) - ‘themashina.ru/themashina.ru/uploads-ssl.webflow.com/61a8f69a2510301afbf10762/61b5ee32a9f87114b5dbd768_hero-video-poster-00001.jpg&quot;.html’ saved [155967/155967]
+
+--2026-01-26 12:38:57--  https://themashina.ru/videos/hero-video-transcode.mp4
+Reusing existing connection to themashina.ru:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 960171 (938K) [video/mp4]
+Saving to: ‘themashina.ru/themashina.ru/hero-video-transcode.mp4’
+
+themashina.ru/hero-   0%[                    ]       0  --.-KB/s               themashina.ru/hero-  83%[===============>    ] 784.00K  3.82MB/s               themashina.ru/hero- 100%[===================>] 937.67K  3.92MB/s    in 0.2s    
+
+2026-01-26 12:38:57 (3.92 MB/s) - ‘themashina.ru/themashina.ru/hero-video-transcode.mp4’ saved [960171/960171]
+
+--2026-01-26 12:38:58--  https://themashina.ru/videos/hero-video-transcode.webm
+Reusing existing connection to themashina.ru:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 1563241 (1.5M) [video/webm]
+Saving to: ‘themashina.ru/themashina.ru/hero-video-transcode.webm’
+
+themashina.ru/hero-   0%[                    ]       0  --.-KB/s               themashina.ru/hero-  79%[==============>     ]   1.19M  5.92MB/s               themashina.ru/hero- 100%[===================>]   1.49M  6.00MB/s    in 0.2s    
+
+2026-01-26 12:38:59 (6.00 MB/s) - ‘themashina.ru/themashina.ru/hero-video-transcode.webm’ saved [1563241/1563241]
+
+--2026-01-26 12:39:00--  https://themashina.ru/images/iphone-hero-04.png
+Reusing existing connection to themashina.ru:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 269157 (263K) [image/png]
+Saving to: ‘themashina.ru/themashina.ru/iphone-hero-04.png’
+
+themashina.ru/iphon   0%[                    ]       0  --.-KB/s               themashina.ru/iphon 100%[===================>] 262.85K  --.-KB/s    in 0.05s   
+
+2026-01-26 12:39:00 (4.87 MB/s) - ‘themashina.ru/themashina.ru/iphone-hero-04.png’ saved [269157/269157]
+
+--2026-01-26 12:39:02--  https://themashina.ru/images/screen-frame.png
+Reusing existing connection to themashina.ru:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 38164 (37K) [image/png]
+Saving to: ‘themashina.ru/themashina.ru/screen-frame.png’
+
+themashina.ru/scree   0%[                    ]       0  --.-KB/s               themashina.ru/scree 100%[===================>]  37.27K  --.-KB/s    in 0.01s   
+
+2026-01-26 12:39:02 (3.29 MB/s) - ‘themashina.ru/themashina.ru/screen-frame.png’ saved [38164/38164]
+

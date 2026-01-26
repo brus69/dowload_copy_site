@@ -1,0 +1,134 @@
+<div class="stmd-grouped-container__banner-left">
+ <div class="top_big_one_banner short_block top_big_banners "
+ style="overflow: hidden;">
+ <div class="top_slider_wrapp maxwidth-banner view_1 hidden_narrow">
+ <div class="swiper slider-solution main-slider navigation_on_hover navigation_offset swipeignore" data-plugin-options='{"preloadImages":false,"keyboard":true,"init":false,"countSlides":4,"type":"main_banner","loop":true}' data-index="0">
+ <div class="swiper-wrapper main-slider__wrapper">
+ <div class="swiper-slide main-slider__item box dark left"
+ data-nav_color=""
+ data-text_color="light"
+ data-slide_index="0"
+ style="background-image: url('upload/resize_cache/iblock/83b/1920_500_1/mm8cfs50hyi0kmjf6r115qimvaylfomw.png');"
+ >
+ <div id="bx_2875157043_35153">
+ <a class="target" href="https://technix-rus.ru/info/news/otkrytie-roznichnoy-tochki/" ></a>
+ <div class="wrapper_inner"> 
+ <table>
+ <tbody>
+ <tr class="main_info js-notice-block "
+ style="background-image: url('upload/resize_cache/iblock/83b/1920_500_1/mm8cfs50hyi0kmjf6r115qimvaylfomw.png');"
+ >
+ <td class="text ">
+ <div class="banner_title">
+ <span class="head-title">
+ <a href="https://technix-rus.ru/info/news/otkrytie-roznichnoy-tochki/" >
+ </a>
+ </span>
+ </div>
+ </td>
+ <td class="img ">
+ </td>
+ </tr>
+ </tbody>
+ </table>
+ </div>
+ </div>
+ </div>
+ <div class="swiper-slide main-slider__item box lazy-background dark left"
+ data-nav_color=""
+ data-text_color="light"
+ data-slide_index="1"
+ style="background-image: url('upload/resize_cache/iblock/298/1920_500_1/jxxz9jtf26n6nj4gobfc7xg1jysreawn.png');"
+ >
+ <div id="bx_2875157043_34586">
+ <a class="target" href="https://technix-rus.ru/catalog/sistemy_lineynogo_peremeshcheniya/" ></a>
+ <div class="wrapper_inner"> 
+ <table>
+ <tbody>
+ <tr class="main_info js-notice-block lazy-background"
+ style="background-image: url('upload/resize_cache/iblock/298/1920_500_1/jxxz9jtf26n6nj4gobfc7xg1jysreawn.png');"
+ >
+ <td class="text ">
+ <div class="banner_title">
+ <span class="head-title">
+ <a href="https://technix-rus.ru/catalog/sistemy_lineynogo_peremeshcheniya/" >
+ </a>
+ </span>
+ </div>
+ </td>
+ <td class="img ">
+ </td>
+ </tr>
+ </tbody>
+ </table>
+ </div>
+ </div>
+ </div>
+ <div class="swiper-slide main-slider__item box lazy-background dark left"
+ data-nav_color=""
+ data-text_color="light"
+ data-slide_index="2"
+ style="background-image: url('upload/resize_cache/iblock/2c8/1920_500_1/i6btlxj3l91tp4e1q64txy8i287beero.png');"
+ >
+ <div id="bx_2875157043_34587">
+ <a class="target" href="https://technix-rus.ru/catalog/shvp/" ></a>
+ <div class="wrapper_inner"> 
+ <table>
+ <tbody>
+ <tr class="main_info js-notice-block lazy-background"
+ style="background-image: url('upload/resize_cache/iblock/2c8/1920_500_1/i6btlxj3l91tp4e1q64txy8i287beero.png');"
+ >
+ <td class="text ">
+ <div class="banner_title">
+ <span class="head-title">
+ <a href="https://technix-rus.ru/catalog/shvp/" >
+ </a>
+ </span>
+ </div>
+ </td>
+ <td class="img ">
+ </td>
+ </tr>
+ </tbody>
+ </table>
+ </div>
+ </div>
+ </div>
+ <div class="swiper-slide main-slider__item box lazy-background dark left"
+ data-nav_color=""
+ data-text_color="light"
+ data-slide_index="3"
+ style="background-image: url('upload/resize_cache/iblock/064/1920_500_1/zjkpvphuca56h4sjlzsdtq1ltjpakhz2.png');"
+ >
+ <div id="bx_2875157043_34595">
+ <a class="target" href="https://technix-rus.ru/catalog/trapetseidalnye_gayki_i_vinty/" ></a>
+ <div class="wrapper_inner"> 
+ <table>
+ <tbody>
+ <tr class="main_info js-notice-block lazy-background"
+ style="background-image: url('upload/resize_cache/iblock/064/1920_500_1/zjkpvphuca56h4sjlzsdtq1ltjpakhz2.png');"
+ >
+ <td class="text ">
+ <div class="banner_title">
+ <span class="head-title">
+ <a href="https://technix-rus.ru/catalog/trapetseidalnye_gayki_i_vinty/" >
+ </a>
+ </span>
+ </div>
+ </td>
+ <td class="img ">
+ </td>
+ </tr>
+ </tbody>
+ </table>
+ </div>
+ </div>
+ </div>
+ </div>
+ <div class="swiper-pagination"></div>
+ <div class="swiper-button-prev"></div>
+ <div class="swiper-button-next"></div>
+ </div>
+</div>
+ </div>
+ </div>
