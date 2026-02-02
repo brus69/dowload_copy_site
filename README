@@ -7,3 +7,91 @@ remove_text.sh - удаление простого текста, пример и
 replace_text.sh - переименование значений по всей странице, пример использования ./replace_text.sh technix-rus.ru/*.html "196105" "000000"
 
 dowload_site.sh - исправить в дальнейшем 
+
+
+
+# Набор инструментов для парсинга и обработки HTML-страниц.
+
+Пример работы скрипта:
+
+scraping.py my-domain.com -> парсит домен с помощью wget (Создание локальной копии веб-сайта)
+и сохранияет все html файлы страницы в папке [domain] название домена
+
+clean.py -> удаляет html указанный в data.json код в файлах директории /my-domain.com
+
+remove_data -> заменяет данные в html страницах указанные в файле data.json
+
+единый data.json файл для работы с html 
+{
+  "clean": "<i class="svg triangle inline " aria-hidden="true"><svg width="3" height="5"><use xlink:href="/local/templates/aspro_max_copy/images/svg/trianglearrow_sprite.svg#trianglearrow_right"></use></svg></i>",
+
+  "rewrite": {
+    "initial_data": "<script src=\"/analytics.js\"></script>",
+    "replaceable datat": "8 800"
+  },
+
+  "add": {
+  "initial_data": "</footer>",
+  "to_add": "<div class="banner_content_bottom_container flexbox flexbox--gap flexbox--gap-16">
+			</div>"
+  }
+}
+----------------------------------------------------------------------
+wget - параметры
+( 
+# Рекурсивное скачивание
+# Не подниматься выше базового URL
+# Принудительно добавлять .html к файлам
+# Конвертировать ссылки для локального просмотра
+# Скачивать все необходимые ресурсы (CSS, JS, изображения)
+# Безопасные имена файлов
+# Игнорировать SSL-сертификаты
+)
+
+Все должно быть логировано и обработано с помощью исключения
+----------------------------------------------------------------------
+/html_processing_toolkit/
+│
+│
+├── scraping.py            # Модуль для парсинга сайта
+├── clean.py               # Модуль для удаления HTML-кода
+├── remove_data.py         # Модуль для замены данных
+├── add_data.py            # Модуль для добавления нового кода
+│
+├── data.json              # Единый конфигурационный файл
+│
+├── logs/                  # Директория для логов
+│   ├── scraping.log       # Логи парсинга
+│   ├── processing.log     # Логи обработки
+│   └── errors.log         # Логи ошибок
+│
+├── results/               # Директория для сохранения результатов парсинга
+│   └── [domain]/          # Папка с доменом (например, my-domain.com/) 
+│       ├── index.html     # Страницы сайта 
+│       ├── page1.html
+│       └── ...
+│
+└── requirements.txt       # Зависимости Python
+
+----------------
+требования:
+Linux: 
+- wget
+- bash скрипты
+- git
+- HTTP-протокол
+
+- Docker
+- HTML/CSS
+
+Python:	
+- Python 3.12 +
+- requests
+- BeautifulSoup
+- Django
+- Многопоточность
+
+БД:
+- PostgreSQL
+- Redis
+----------------
