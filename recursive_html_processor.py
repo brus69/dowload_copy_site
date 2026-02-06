@@ -63,7 +63,8 @@ def process_file_inplace(filepath):
         return False, str(e)
 
 def main():
-    base_dir = "ecodpo.ru"
+    print('Введите название каталога')
+    base_dir = input()
     
     print("=" * 60)
     print("Обработка HTML файлов на месте")
