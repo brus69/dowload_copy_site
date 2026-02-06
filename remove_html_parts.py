@@ -2,7 +2,7 @@ import os
 import re
 
 # Настройки
-FILES_DIR = "technix-rus.ru"  # Директория с HTML-файлами
+FILES_DIR = "ecodpo.ru"  # Директория с HTML-файлами
 HTML_PARTS_TO_REMOVE_FILE = "parts_to_remove.txt"  # Файл с частями HTML для удаления
 LOGFILE = "remove.log"  # Файл для логирования
 

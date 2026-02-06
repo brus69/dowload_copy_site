@@ -1,0 +1,13 @@
+{
+  "clean": "<i class=\"svg triangle inline \" aria-hidden=\"true\"><svg width=\"3\" height=\"5\">arrow_sprite.svg#trianglearrow_right\">",
+
+  "rewrite": {
+    "initial_data": "<script src=\"/analytics.js\"></script>",
+    "replaceable datat": "8 800"
+  },
+
+  "add": {
+  "initial_data": "</footer>",
+  "to_add": "<div class=\"banner_content_bottom_container flexbox flexbox--gap flexbox--gap-16\"></div>"
+  }
+}
