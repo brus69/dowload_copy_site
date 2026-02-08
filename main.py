@@ -24,7 +24,18 @@ def process_selection(num: str):
         dowload_site(domain)
     elif num == "2":
         subprocess.run(['python3', 'recursive_html_processor.py'])
-
+    elif num == "3":
+        subprocess.run(['python3', 'remove_script.py'])
+    elif num == '4':
+        subprocess.run(['python3', 'remove_js_links.py'])
+    elif num == '5':
+        subprocess.run(['python3', 'remove_html_parts.py'])
+    elif num == '6':
+        subprocess.run(['python3', './remove_text.sh'])
+    elif num == '7':
+        subprocess.run(['python3', 'replace_code.py'])
+    elif num == '8':
+        subprocess.run(['python3', 'append_code.py'])
     
 
 

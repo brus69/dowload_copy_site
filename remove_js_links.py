@@ -1,6 +1,8 @@
 import os
 import re
 
+print('Работа скрипта remove_js_links.py')
+
 def remove_js_links(directory):
     """
     Находит все HTML-файлы в указанной директории и её поддиректориях,
