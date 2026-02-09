@@ -40,7 +40,7 @@ def remove_script_tags(directory):
 # Пример использования
 if __name__ == "__main__":
     # Укажите путь к папке для поиска файлов
-    target_directory = "ecodpo.ru"
+    target_directory = input()
 
     # Вызов функции
     remove_script_tags(target_directory)

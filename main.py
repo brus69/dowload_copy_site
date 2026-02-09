@@ -31,7 +31,7 @@ def process_selection(num: str):
     elif num == '5':
         subprocess.run(['python3', 'remove_html_parts.py'])
     elif num == '6':
-        subprocess.run(['python3', './remove_text.sh'])
+        subprocess.run(['python3', './remove_text.sh']) #под вопросом
     elif num == '7':
         subprocess.run(['python3', 'replace_code.py'])
     elif num == '8':

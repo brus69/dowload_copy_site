@@ -42,7 +42,7 @@ def remove_js_links(directory):
 # Пример использования
 if __name__ == "__main__":
     # Укажите путь к папке для поиска файлов
-    target_directory = "ecodpo.ru"
+    target_directory = input()
 
     # Вызов функции
     remove_js_links(target_directory)

@@ -39,48 +39,12 @@ def append_code_after_html_snippet(directory, target_code, new_code):
 # Пример использования
 if __name__ == "__main__":
     # Укажите путь к папке для поиска файлов
-    target_directory = "ecodpo.ru"
+    target_directory = input('Укажите путь к папке')
 
     # Участок кода, после которого нужно добавить новый фрагмент
-    target_code_snippet = "<head>"
+    target_code_snippet = input('Участок кода, после которого нужно добавить новый фрагмент')
     # Новый фрагмент кода или текста для добавления
-    new_code_snippet = '''
-
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
-        }
-        form {
-            max-width: 400px;
-            margin: 0 auto;
-        }
-        label {
-            display: block;
-            margin-bottom: 8px;
-            font-weight: bold;
-        }
-        input, select {
-            width: 100%;
-            padding: 8px;
-            margin-bottom: 16px;
-            border: 1px solid #ccc;
-            border-radius: 4px;
-        }
-        button {
-            padding: 10px 15px;
-            background-color: #007BFF;
-            color: white;
-            border: none;
-            border-radius: 4px;
-            cursor: pointer;
-        }
-        button:hover {
-            background-color: #0056b3;
-        }
-    </style>
-
-        '''
+    new_code_snippet = input('Новый фрагмент кода или текста для добавления')
 
     # Вызов функции
     append_code_after_html_snippet(target_directory, target_code_snippet, new_code_snippet)
