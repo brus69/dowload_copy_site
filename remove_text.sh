@@ -2,35 +2,51 @@
 
 # Проверка количества аргументов
 if [[ $# -ne 2 ]]; then
-    echo "Использование: $0 <файл> <текст_для_удаления>"
+    echo "Использование: $0 <директория> <текст_для_удаления>"
     exit 1
 fi
 
 # Настройки
-FILE=$1                      # Файл, в котором выполняется удаление
-TEXT_TO_REMOVE=$2            # Текст для удаления
-LOGFILE="remove.log"         # Файл для логирования
+DIRECTORY=$1                # Директория для поиска файлов
+TEXT_TO_REMOVE=$2           # Текст для удаления
+LOG_DIR="logs"              # Папка для хранения логов
+LOGFILE="$LOG_DIR/remove_text.log" # Файл для логирования
 
-# Проверка существования файла
-if [[ ! -f "$FILE" ]]; then
-    echo "Ошибка: Файл $FILE не найден." | tee -a "$LOGFILE"
+# Создание папки logs, если она не существует
+if [[ ! -d "$LOG_DIR" ]]; then
+    mkdir -p "$LOG_DIR"
+    if [[ $? -ne 0 ]]; then
+        echo "Ошибка: Не удалось создать папку $LOG_DIR."
+        exit 1
+    fi
+fi
+
+# Проверка существования директории
+if [[ ! -d "$DIRECTORY" ]]; then
+    echo "Ошибка: Директория $DIRECTORY не найдена." | tee -a "$LOGFILE"
     exit 1
 fi
 
-# Создание резервной копии файла (опционально)
-cp "$FILE" "${FILE}.bak"
+# Поиск всех HTML-файлов в указанной директории и поддиректориях
+HTML_FILES=$(find "$DIRECTORY" -type f -name "*.html")
 
-# Проверка наличия текста в файле
-if grep -q "$TEXT_TO_REMOVE" "$FILE"; then
-    # Удаление текста
-    sed -i "/$TEXT_TO_REMOVE/d" "$FILE"
-    if [[ $? -eq 0 ]]; then
-        echo "$(date): Текст '$TEXT_TO_REMOVE' успешно удален из файла $FILE." | tee -a "$LOGFILE"
-    else
-        echo "$(date): Ошибка при удалении текста из файла $FILE." | tee -a "$LOGFILE"
-        exit 1
-    fi
-else
-    echo "$(date): Текст '$TEXT_TO_REMOVE' не найден в файле $FILE. Удаление не выполнено." | tee -a "$LOGFILE"
+# Если HTML-файлы не найдены
+if [[ -z "$HTML_FILES" ]]; then
+    echo "$(date): В директории $DIRECTORY не найдено ни одного HTML-файла." | tee -a "$LOGFILE"
     exit 0
 fi
+
+# Обработка каждого файла
+for FILE in $HTML_FILES; do
+    if grep -q "$TEXT_TO_REMOVE" "$FILE"; then
+        # Удаление текста
+        sed -i "/$TEXT_TO_REMOVE/d" "$FILE"
+        if [[ $? -eq 0 ]]; then
+            echo "$(date): Текст '$TEXT_TO_REMOVE' успешно удален из файла $FILE." | tee -a "$LOGFILE"
+        else
+            echo "$(date): Ошибка при удалении текста из файла $FILE." | tee -a "$LOGFILE"
+        fi
+    else
+        echo "$(date): Текст '$TEXT_TO_REMOVE' не найден в файле $FILE. Удаление не выполнено." | tee -a "$LOGFILE"
+    fi
+done

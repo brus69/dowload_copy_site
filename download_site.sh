@@ -10,7 +10,8 @@ fi
 # Настройки
 DOMAIN=$1                     # Доменное имя (например, themashina.ru)
 BASE_DIR="$DOMAIN"           # Папка для сохранения сайта
-LOGFILE="wget_$DOMAIN.log"   # Файл для логирования
+LOG_DIR="logs"               # Директория для логов
+LOGFILE="$LOG_DIR/wget_$DOMAIN.log"   # Файл для логирования
 
 # Проверка, что домен не пустой
 if [[ -z "$DOMAIN" ]]; then
@@ -22,6 +23,12 @@ fi
 DOMAIN="${DOMAIN#https://}"
 DOMAIN="${DOMAIN#http://}"
 DOMAIN="${DOMAIN#www.}"
+
+# Создаем директорию logs, если она не существует
+if [[ ! -d "$LOG_DIR" ]]; then
+    mkdir -p "$LOG_DIR"
+    echo "Создана директория для логов: $LOG_DIR"
+fi
 
 echo "========================================"
 echo "Загрузка сайта: $DOMAIN"

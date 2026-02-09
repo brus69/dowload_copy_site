@@ -1,0 +1,134 @@
+--2026-02-09 10:14:27--  https://ecodpo.ru/
+Resolving ecodpo.ru (ecodpo.ru)... 45.147.179.98
+Connecting to ecodpo.ru (ecodpo.ru)|45.147.179.98|:443... connected.
+WARNING: cannot verify ecodpo.ru's certificate, issued by ‘CN=Kaspersky Endpoint Security Personal Certification Authority,O=AO Kaspersky Lab’:
+  Self-signed certificate encountered.
+HTTP request sent, awaiting response... 200 OK
+Length: 262825 (257K) [text/html]
+Saving to: ‘ecodpo.ru/ecodpo.ru/index.html’
+
+ecodpo.ru/index.htm   0%[                    ]       0  --.-KB/s               ecodpo.ru/index.htm 100%[===================>] 256.67K  --.-KB/s    in 0.001s  
+
+2026-02-09 10:14:28 (420 MB/s) - ‘ecodpo.ru/ecodpo.ru/index.html’ saved [262825/262825]
+
+Loading robots.txt; please ignore errors.
+--2026-02-09 10:14:29--  https://ecodpo.ru/robots.txt
+Reusing existing connection to ecodpo.ru:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 2788 (2.7K) [text/plain]
+Saving to: ‘ecodpo.ru/ecodpo.ru/robots.txt’
+
+ecodpo.ru/robots.tx   0%[                    ]       0  --.-KB/s               ecodpo.ru/robots.tx 100%[===================>]   2.72K  --.-KB/s    in 0s      
+
+2026-02-09 10:14:29 (436 MB/s) - ‘ecodpo.ru/ecodpo.ru/robots.txt’ saved [2788/2788]
+
+--2026-02-09 10:14:32--  https://ecodpo.ru/assets/icons/ok.png
+Reusing existing connection to ecodpo.ru:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 172 [image/png]
+Saving to: ‘ecodpo.ru/ecodpo.ru/icons/ok.png’
+
+ecodpo.ru/icons/ok.   0%[                    ]       0  --.-KB/s               ecodpo.ru/icons/ok. 100%[===================>]     172  --.-KB/s    in 0s      
+
+2026-02-09 10:14:32 (65.6 MB/s) - ‘ecodpo.ru/ecodpo.ru/icons/ok.png’ saved [172/172]
+
+--2026-02-09 10:14:35--  https://ecodpo.ru/assets/icons/book.svg
+Reusing existing connection to ecodpo.ru:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 625 [image/svg+xml]
+Saving to: ‘ecodpo.ru/ecodpo.ru/icons/book.svg’
+
+ecodpo.ru/icons/boo   0%[                    ]       0  --.-KB/s               ecodpo.ru/icons/boo 100%[===================>]     625  --.-KB/s    in 0s      
+
+2026-02-09 10:14:35 (351 MB/s) - ‘ecodpo.ru/ecodpo.ru/icons/book.svg’ saved [625/625]
+
+--2026-02-09 10:14:36--  https://ecodpo.ru/assets/page/bg-top.jpg
+Reusing existing connection to ecodpo.ru:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 246802 (241K) [image/jpeg]
+Saving to: ‘ecodpo.ru/ecodpo.ru/page/bg-top.jpg’
+
+ecodpo.ru/page/bg-t   0%[                    ]       0  --.-KB/s               ecodpo.ru/page/bg-t 100%[===================>] 241.02K  --.-KB/s    in 0.07s   
+
+2026-02-09 10:14:36 (3.45 MB/s) - ‘ecodpo.ru/ecodpo.ru/page/bg-top.jpg’ saved [246802/246802]
+
+--2026-02-09 10:14:38--  https://ecodpo.ru/_ipx/f_avif&q_45&blur_2/assets/page/bg-top.jpg
+Reusing existing connection to ecodpo.ru:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 47225 (46K) [image/jpeg]
+Saving to: ‘ecodpo.ru/ecodpo.ru/f_avif&q_45&blur_2/assets/page/bg-top.jpg’
+
+ecodpo.ru/f_avif&q_   0%[                    ]       0  --.-KB/s               ecodpo.ru/f_avif&q_ 100%[===================>]  46.12K  --.-KB/s    in 0s      
+
+2026-02-09 10:14:38 (183 MB/s) - ‘ecodpo.ru/ecodpo.ru/f_avif&q_45&blur_2/assets/page/bg-top.jpg’ saved [47225/47225]
+
+--2026-02-09 10:14:40--  https://ecodpo.ru/_ipx/f_avif&q_45&s_1920x550&blur_1/assets/page/bg-top.jpg
+Reusing existing connection to ecodpo.ru:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 25420 (25K) [image/jpeg]
+Saving to: ‘ecodpo.ru/ecodpo.ru/f_avif&q_45&s_1920x550&blur_1/assets/page/bg-top.jpg’
+
+ecodpo.ru/f_avif&q_   0%[                    ]       0  --.-KB/s               ecodpo.ru/f_avif&q_ 100%[===================>]  24.82K  --.-KB/s    in 0s      
+
+2026-02-09 10:14:40 (173 MB/s) - ‘ecodpo.ru/ecodpo.ru/f_avif&q_45&s_1920x550&blur_1/assets/page/bg-top.jpg’ saved [25420/25420]
+
+--2026-02-09 10:14:41--  https://ecodpo.ru/_ipx/f_avif&q_40&s_576x550&blur_1/assets/page/bg-top.jpg
+Reusing existing connection to ecodpo.ru:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 7059 (6.9K) [image/jpeg]
+Saving to: ‘ecodpo.ru/ecodpo.ru/f_avif&q_40&s_576x550&blur_1/assets/page/bg-top.jpg’
+
+ecodpo.ru/f_avif&q_   0%[                    ]       0  --.-KB/s               ecodpo.ru/f_avif&q_ 100%[===================>]   6.89K  --.-KB/s    in 0s      
+
+2026-02-09 10:14:41 (1.93 GB/s) - ‘ecodpo.ru/ecodpo.ru/f_avif&q_40&s_576x550&blur_1/assets/page/bg-top.jpg’ saved [7059/7059]
+
+--2026-02-09 10:14:43--  https://ecodpo.ru/_nuxt/entry.Jh246OxM.css
+Reusing existing connection to ecodpo.ru:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 11357 (11K) [text/css]
+Saving to: ‘ecodpo.ru/ecodpo.ru/entry.Jh246OxM.css’
+
+ecodpo.ru/entry.Jh2   0%[                    ]       0  --.-KB/s               ecodpo.ru/entry.Jh2 100%[===================>]  11.09K  --.-KB/s    in 0s      
+
+2026-02-09 10:14:43 (3.78 GB/s) - ‘ecodpo.ru/ecodpo.ru/entry.Jh246OxM.css’ saved [11357/11357]
+
+--2026-02-09 10:14:44--  https://ecodpo.ru/_nuxt/default.Dvs8ZEze.css
+Reusing existing connection to ecodpo.ru:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 23907 (23K) [text/css]
+Saving to: ‘ecodpo.ru/ecodpo.ru/default.Dvs8ZEze.css’
+
+ecodpo.ru/default.D   0%[                    ]       0  --.-KB/s               ecodpo.ru/default.D 100%[===================>]  23.35K  --.-KB/s    in 0s      
+
+2026-02-09 10:14:44 (137 MB/s) - ‘ecodpo.ru/ecodpo.ru/default.Dvs8ZEze.css’ saved [23907/23907]
+
+--2026-02-09 10:14:46--  https://ecodpo.ru/_nuxt/Menu.U-40x9Jl.css
+Reusing existing connection to ecodpo.ru:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 2421 (2.4K) [text/css]
+Saving to: ‘ecodpo.ru/ecodpo.ru/Menu.U-40x9Jl.css’
+
+ecodpo.ru/Menu.U-40   0%[                    ]       0  --.-KB/s               ecodpo.ru/Menu.U-40 100%[===================>]   2.36K  --.-KB/s    in 0s      
+
+2026-02-09 10:14:46 (1.25 GB/s) - ‘ecodpo.ru/ecodpo.ru/Menu.U-40x9Jl.css’ saved [2421/2421]
+
+--2026-02-09 10:14:48--  https://ecodpo.ru/_nuxt/Modal.DGgdqsw6.css
+Reusing existing connection to ecodpo.ru:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 1330 (1.3K) [text/css]
+Saving to: ‘ecodpo.ru/ecodpo.ru/Modal.DGgdqsw6.css’
+
+ecodpo.ru/Modal.DGg   0%[                    ]       0  --.-KB/s               ecodpo.ru/Modal.DGg 100%[===================>]   1.30K  --.-KB/s    in 0s      
+
+2026-02-09 10:14:48 (288 MB/s) - ‘ecodpo.ru/ecodpo.ru/Modal.DGgdqsw6.css’ saved [1330/1330]
+
+--2026-02-09 10:14:50--  https://ecodpo.ru/_nuxt/Image.DLlc51HC.css
+Reusing existing connection to ecodpo.ru:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 7637 (7.5K) [text/css]
+Saving to: ‘ecodpo.ru/ecodpo.ru/Image.DLlc51HC.css’
+
+ecodpo.ru/Image.DLl   0%[                    ]       0  --.-KB/s               ecodpo.ru/Image.DLl 100%[===================>]   7.46K  --.-KB/s    in 0s      
+
+2026-02-09 10:14:50 (2.54 GB/s) - ‘ecodpo.ru/ecodpo.ru/Image.DLlc51HC.css’ saved [7637/7637]
+

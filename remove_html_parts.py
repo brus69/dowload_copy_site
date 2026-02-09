@@ -2,9 +2,10 @@ import os
 import re
 
 # Настройки
-FILES_DIR = input()  # Директория с HTML-файлами
+print('Важно! Должен быть файл parts_to_remove.txt и в нём код HTML для удаления')
+FILES_DIR = input('Выберите директорию с HTML-файлами ')  # Директория с HTML-файлами
 HTML_PARTS_TO_REMOVE_FILE = "parts_to_remove.txt"  # Файл с частями HTML для удаления
-LOGFILE = "remove.log"  # Файл для логирования
+LOGFILE = "remove_html_parts.log"  # Файл для логирования
 
 # Чтение частей HTML для удаления из файла
 def read_html_parts_to_remove(file_path):
@@ -38,7 +39,7 @@ def remove_html_parts_from_file(file_path, parts_to_remove):
 
 # Логирование
 def log_message(message):
-    with open(LOGFILE, "a", encoding="utf-8") as log:
+    with open(f'logs/{LOGFILE}', "a", encoding="utf-8") as log:
         log.write(f"{message}\n")
 
 # Основная функция
@@ -59,7 +60,7 @@ def main():
                 else:
                     log_message(f"Части HTML не найдены в файле: {file_path}")
 
-    print("Обработка завершена. Проверьте логи в файле remove.log.")
+    print(f"Обработка завершена. Проверьте логи в файле logs/{LOGFILE}")
 
 if __name__ == "__main__":
     main()

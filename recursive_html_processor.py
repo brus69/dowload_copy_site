@@ -12,6 +12,24 @@ from bs4 import BeautifulSoup
 import hashlib
 import tempfile
 import html
+import logging
+
+
+# Настройка логгера
+LOG_DIR = "logs"
+os.makedirs(LOG_DIR, exist_ok=True)  # Создаем директорию logs, если её нет
+LOG_FILE = os.path.join(LOG_DIR, "recursive_html_processor.log")
+
+logging.basicConfig(
+    level=logging.INFO,
+    format="%(asctime)s - %(levelname)s - %(message)s",
+    handlers=[
+        logging.FileHandler(LOG_FILE),  # Логи в файл
+        logging.StreamHandler()         # Логи в консоль
+    ]
+)
+
+logger = logging.getLogger("html_processor")
 
 def add_spaces_to_body(html_content):
     """Прямая обработка всего документа"""
@@ -126,6 +144,12 @@ def main():
     print(f"  Без изменений: {stats['unchanged']}")
     print(f"  Ошибок: {stats['errors']}")
     print("=" * 60)
+
+    logger.info("Статистика завершения:")
+    logger.info(f"  Всего файлов: {stats['total']}")
+    logger.info(f"  Изменено: {stats['modified']}")
+    logger.info(f"  Без изменений: {stats['unchanged']}")
+    logger.info(f"  Ошибок: {stats['errors']}") 
 
 if __name__ == "__main__":
     main()

@@ -39,13 +39,13 @@ def replace_code_in_html_files(directory, old_code, new_code):
 # Пример использования
 if __name__ == "__main__":
     # Укажите путь к папке для поиска файлов
-    target_directory = input('Укажите путь к папке для поиска файлов')
+    target_directory = input('Укажите путь к папке для поиска файлов ')
 
     # Участок кода/текста, который нужно заменить
-    old_code_snippet = input('Участок кода/текста, который нужно заменить')
+    old_code_snippet = input('Участок кода/текста, который нужно заменить ')
 
     # Новый участок кода
-    new_code_snippet = input('Новый участок кода')
+    new_code_snippet = input('Новый участок кода ')
 
     # Вызов функции
     replace_code_in_html_files(target_directory, old_code_snippet, new_code_snippet)

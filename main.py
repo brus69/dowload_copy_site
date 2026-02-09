@@ -19,8 +19,7 @@ def dowload_site(domain):
 def process_selection(num: str):
     # выбор функции в зависимости от значения
     if num == "1": 
-        print('Введите название домена')
-        domain = input()
+        domain = input('Введите название домена')
         dowload_site(domain)
     elif num == "2":
         subprocess.run(['python3', 'recursive_html_processor.py'])
@@ -31,7 +30,9 @@ def process_selection(num: str):
     elif num == '5':
         subprocess.run(['python3', 'remove_html_parts.py'])
     elif num == '6':
-        subprocess.run(['python3', './remove_text.sh']) #под вопросом
+        dir_folder = input('Введите название директории ')
+        clean_text = input('Текст к удалению ')
+        subprocess.run(['./remove_text.sh', dir_folder, clean_text])
     elif num == '7':
         subprocess.run(['python3', 'replace_code.py'])
     elif num == '8':
