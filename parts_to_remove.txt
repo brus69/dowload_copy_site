@@ -1,17 +1,1 @@
-      <div class="modal-city__group" data-v-da032726>
-                                    <div class="modal-city__group-title" data-v-da032726> Т</div> <!--[-->
-                                    <div data-v-da032726> <a href="/taganrog/" class="" data-v-da032726> <!--[-->
-                                            Таганрог<!--]--> </a> </div>
-                                    <div data-v-da032726> <a href="/tambov/" class="" data-v-da032726> <!--[-->
-                                            Тамбов<!--]--> </a> </div>
-                                    <div data-v-da032726> <a href="/tver/" class="" data-v-da032726> <!--[-->
-                                            Тверь<!--]--> </a> </div>
-                                    <div data-v-da032726> <a href="/tolyatti/" class="" data-v-da032726> <!--[-->
-                                            Тольятти<!--]--> </a> </div>
-                                    <div data-v-da032726> <a href="/tomsk/" class="" data-v-da032726> <!--[-->
-                                            Томск<!--]--> </a> </div>
-                                    <div data-v-da032726> <a href="/tula/" class="" data-v-da032726> <!--[-->
-                                            Тула<!--]--> </a> </div>
-                                    <div data-v-da032726> <a href="/tyumen/" class="" data-v-da032726> <!--[-->
-                                            Тюмень<!--]--> </a> </div> <!--]-->
-                                </div>
+<img class="page-banner-picture__img" src="/upload/iblock/f96/lpw7s6whye7tqljq3nq4n0jc01e113rh.jpg" alt="Баннер" data-v-9b0a1b21>
